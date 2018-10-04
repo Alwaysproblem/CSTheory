@@ -39,7 +39,7 @@ s_T = randperm(N,M);
 samp_mat = eye(N);
 Phi = samp_mat(s_T, :);
 % size(Phi)
-Phi
+% Phi
 
 s = x(s_T);
 s = s';
