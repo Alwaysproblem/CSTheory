@@ -26,7 +26,7 @@ x=0.3*cos(2*pi*f1*Ts*ts)+0.6*cos(2*pi*f2*Ts*ts)+0.1*cos(2*pi*f3*Ts*ts)+0.9*cos(2
 
 
 % 画出图像 以及 其 频谱图
-subplot(3,1,1);
+subplot(3, 1, 1);
 plot(x);
 subplot(3, 1, 2);
 plot(abs(fft(x)));

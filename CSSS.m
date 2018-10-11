@@ -1,4 +1,3 @@
-
 clear; close all;
 %% 产生信号
 choice_transform = 0;      % 选择正交基，1为选择DCT变换，0为选择FFT变换
